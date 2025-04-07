@@ -1,0 +1,33 @@
+.todolist {
+    /* background-color: aqua; */
+    background-color: tan;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+  }
+  .todolist input {
+    font-size: x-large;
+  }
+  .todolist button {
+    font-size: larger;
+    margin: 1rem;
+  }
+  div {
+    /* background-color: antiquewhite; */
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 1rem;
+    /* width: 60%; */
+    /* margin-left: 10%; */
+  }
+  .todoitem {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .todoitem button {
+    font-size: medium;
+  }
+  

@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coaches",
+  "info": {
+    "singularName": "coach",
+    "pluralName": "coaches",
+    "displayName": "Coach"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Specialty": {
+      "type": "string"
+    },
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "Coach:",
+        "Computer",
+        "Health",
+        "Public Service",
+        "Business",
+        "Entertainment",
+        "Sports"
+      ]
+    },
+    "avatarUrl": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Conatact": {
+      "type": "biginteger"
+    }
+  }
+}

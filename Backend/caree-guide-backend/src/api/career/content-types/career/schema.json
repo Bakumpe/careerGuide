@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "careers",
+  "info": {
+    "singularName": "career",
+    "pluralName": "careers",
+    "displayName": "Career",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "Career:",
+        "Computer",
+        "Health",
+        "Public Service",
+        "Business",
+        "Entertainment",
+        "Sports"
+      ]
+    },
+    "images": {
+      "type": "json"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}
